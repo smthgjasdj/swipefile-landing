@@ -6,23 +6,7 @@ export const metadata: Metadata = {
   title: 'Swipefile — Save Ads from the Meta Ad Library',
   description: 'Save, organize, and research winning ad creative with Swipefile, a private Chrome extension for the Meta Ad Library.',
   generator: 'v0.app',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
-  },
+  icons: { icon: '/icon-light-32x32.png', apple: '/apple-icon.png' },
 }
 
 export const viewport: Viewport = {
